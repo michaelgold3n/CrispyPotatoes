@@ -61,7 +61,7 @@ public abstract class Character {
 
     // Add HP
     public int addHP(int hp) {
-	HP += hp;
+	HP = hp;
 	// Set maxHP to include upgraded HP
         maxHP += hp;
 	return HP;
